@@ -522,3 +522,9 @@ background-color: #121212;
     flex-direction: column;
 }
 
+.section-subtitle{
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
