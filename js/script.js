@@ -56,18 +56,9 @@ if (themeBtn) {
 let sendBtn = document.getElementById("sendBtn");
 
 if (sendBtn) {
-    sendBtn.addEventListener("click", function(event) {
-
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let message = document.getElementById("message").value;
-
-    if (name === "" || email === "" || message === "") {
-        alert("Hi! please complete all the fields before sending your message.");
-    } else {
-        alert("Thank you! Your message has been received.");
-    }
-});
+    sendBtn.addEventListener("click", function () {
+        alert("Your message is being sent...");
+    });
 }
 
 let hamburger = document.getElementById("hamburger");
